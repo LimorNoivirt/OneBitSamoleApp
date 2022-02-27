@@ -29,8 +29,8 @@ class UsersController < ApplicationController
       else
        render 'new'
       end
-    end
   end
+  
 
   # PATCH/PUT /users/1 or /users/1.json
   def update
